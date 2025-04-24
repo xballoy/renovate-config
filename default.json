@@ -17,11 +17,11 @@
     },
     {
       "minimumReleaseAge": "7 days",
-      "matchUpdateTypes": ["minor"],
+      "matchUpdateTypes": ["minor"]
     },
     {
       "minimumReleaseAge": "3 days",
-      "matchUpdateTypes": ["patch"],
+      "matchUpdateTypes": ["patch"]
     }
   ]
 }
