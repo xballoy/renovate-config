@@ -12,6 +12,11 @@
   "commitMessagePrefix": "build(deps):",
   "packageRules": [
     {
+      "matchLabels": ["security"],
+      "minimumReleaseAge": "0 days",
+      "prPriority": 6
+    },
+    {
       "minimumReleaseAge": "14 days",
       "matchUpdateTypes": ["major"]
     },
