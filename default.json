@@ -8,6 +8,7 @@
     ":automergeMinor",
     "customManagers:biomeVersions"
   ],
+  "osvVulnerabilityAlerts": true,
   "labels": ["dependencies"],
   "commitMessagePrefix": "build(deps):",
   "packageRules": [
