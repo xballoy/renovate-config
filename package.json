@@ -1,0 +1,18 @@
+{
+  "name": "@xballoy/renovate-config",
+  "description": "Preset for Renovate",
+  "license": "MIT",
+  "homepage": "https://github.com/xballoy/renovate-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xballoy/renovate-config.git"
+  },
+  "scripts": {
+    "validate": "renovate-config-validator --strict default.json renovate.json",
+    "test": "npm run validate"
+  },
+  "devDependencies": {
+    "renovate": "43.90.0"
+  },
+  "packageManager": "pnpm@10.32.1"
+}
