@@ -2,32 +2,19 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:best-practices",
-    ":disablePeerDependencies",
+    "schedule:earlyMondays",
     ":enableVulnerabilityAlertsWithLabel(security)",
-    ":maintainLockFilesWeekly",
     ":automergeMinor",
     "customManagers:biomeVersions"
   ],
-  "osvVulnerabilityAlerts": true,
-  "labels": ["dependencies"],
   "commitMessagePrefix": "build(deps):",
+  "labels": ["dependencies"],
+  "osvVulnerabilityAlerts": true,
+  "timezone": "America/Toronto",
   "packageRules": [
     {
-      "matchLabels": ["security"],
-      "minimumReleaseAge": "0 days",
-      "prPriority": 6
-    },
-    {
-      "minimumReleaseAge": "14 days",
-      "matchUpdateTypes": ["major"]
-    },
-    {
-      "minimumReleaseAge": "7 days",
-      "matchUpdateTypes": ["minor"]
-    },
-    {
-      "minimumReleaseAge": "3 days",
-      "matchUpdateTypes": ["patch"]
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "Minor and Patch Updates"
     }
   ]
 }
