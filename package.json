@@ -12,7 +12,7 @@
     "test": "npm run validate"
   },
   "devDependencies": {
-    "renovate": "44.100.0"
+    "renovate": "44.115.2"
   },
-  "packageManager": "pnpm@12.4.2"
+  "packageManager": "pnpm@12.6.0"
 }
