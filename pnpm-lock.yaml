@@ -2223,8 +2223,8 @@ packages:
   semver-utils@1.1.4:
     resolution: {integrity: sha512-EjnoLE5OGmDAVV/8YDoN5KiajNadjzIp9BAHOhYeQHt7j0UWxjmgsx4YD48wp4Ue1Qogq38F1GNUJNqF1kKKxA==}
 
-  semver@6.3.1:
-    resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
+  semver@6.3.2:
+    resolution: {integrity: sha512-GYrCADwpu6yV5OAvchkQ27Z5wwMxWAEMg5NNWjyHh/5DboFFqbdbvYNIvZouQpxXyeMPoTOh0vdPYKlf0ZswdQ==}
     hasBin: true
 
   semver@7.8.5:
@@ -5136,11 +5136,11 @@ snapshots:
 
   semver-stable@3.0.0:
     dependencies:
-      semver: 6.3.1
+      semver: 6.3.2
 
   semver-utils@1.1.4: {}
 
-  semver@6.3.1: {}
+  semver@6.3.2: {}
 
   semver@7.8.5: {}
 

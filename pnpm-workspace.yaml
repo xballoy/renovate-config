@@ -5,3 +5,6 @@ allowBuilds:
   protobufjs: false
   re2: false
 strictDepBuilds: true
+trustPolicy: no-downgrade
+trustPolicyExclude:
+  - '@yarnpkg/libzip@3.2.2'
