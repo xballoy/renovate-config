@@ -12,6 +12,7 @@
     "test": "npm run validate"
   },
   "devDependencies": {
+    "@kjanat/actionlint": "1.17.0",
     "renovate": "44.198.2"
   },
   "packageManager": "pnpm@12.16.1"
